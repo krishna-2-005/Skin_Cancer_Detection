@@ -1,0 +1,34 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Frontend dependencies/build cache
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Large ML artifacts and datasets
+dataset/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
